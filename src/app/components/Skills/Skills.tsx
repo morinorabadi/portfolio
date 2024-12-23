@@ -2,28 +2,23 @@ const Skills = () => {
 	const skills = [
 		{
 			title: "Languages",
-			description: "JavaScript (ES6+), HTML5, CSS3, TypeScript, Golang",
-		},
-		{
-			title: "Frontend",
-			description: "React.js, Next.js, Tailwind CSS, Three.js",
-		},
-		{
-			title: "Backend",
-			description: "Node.js, Express.js, RESTful APIs, MongoDB, Mongoose",
-		},
-		{
-			title: "Tools & Platforms",
-			description: "Git, Webpack, Vite, Docker, Postman",
+			description: "TypeScript, JavaScript, HTML5, CSS3, Golang",
 		},
 		{
 			title: "Game Development",
-			description: "Unity (C#), Blender, 3D Modeling",
+			description: "Three.js , Babylon.js, Godot Engine",
+		},
+		{
+			title: "Frontend",
+			description: "React.js, Next.js, Tailwind CSS, Three.js, Babylon.js",
+		},
+		{
+			title: "Backend",
+			description: "Node.js, Express.js, MongoDB, go-fiber",
 		},
 		{
 			title: "Others",
-			description:
-				"Problem-Solving, Debugging, Responsive Design, Cross-Browser Compatibility",
+			description: "Git Blender Docker",
 		},
 	];
 

@@ -1,33 +1,33 @@
 const WorkExperience = () => {
 	const experiences = [
 		{
+			title: "Web App Developer",
+			company: "Sule Market",
+			duration: "May 2024 – Present",
+			responsibilities: [
+				"developed 3D web applications for creating shed using THREE.js and Next.js.",
+				"Built and optimized RESTful APIs with Node.js and Express.js for seamless backend integration.",
+				"Collaborated with designers to deliver user-friendly and experiences.",
+			],
+		},
+		{
+			title: "Web Game Developer",
+			company: "Smartiza",
+			duration: "Sep 2022 – May 2024",
+			responsibilities: [
+				"Developed 3D games with THREE.js, focusing on gameplay and optimization.",
+				"Engineered multiplayer functionality and real-time gameplay mechanics.",
+				"Optimized web application performance to achieve faster load times.",
+			],
+		},
+		{
 			title: "Full-Stack Developer",
 			company: "Freelance",
-			duration: "Jan 2023 – Present",
+			duration: "Jun 2020 – Sep 2022",
 			responsibilities: [
-				"Designed and developed responsive websites and web applications for clients using React.js and Next.js.",
-				"Built and optimized RESTful APIs with Node.js and Express.js for seamless backend integration.",
-				"Collaborated with designers and stakeholders to deliver user-friendly experiences.",
-			],
-		},
-		{
-			title: "Frontend Developer",
-			company: "XYZ Tech Solutions",
-			duration: "Sep 2021 – Dec 2022",
-			responsibilities: [
-				"Created interactive and dynamic web interfaces using React.js and Tailwind CSS.",
-				"Ensured cross-browser compatibility and mobile responsiveness for various projects.",
-				"Improved website performance, reducing load times by 30%.",
-			],
-		},
-		{
-			title: "Game Developer",
-			company: "Indie Studio",
-			duration: "Jun 2020 – Aug 2021",
-			responsibilities: [
-				"Developed 3D games with Unity and Blender, focusing on gameplay mechanics and optimization.",
-				"Designed immersive game environments using Three.js and WebGL for browser-based experiences.",
-				"Worked with a small team to prototype and release two indie games.",
+				"Built and maintained full-stack web applications with modern frameworks and libraries.",
+				"Designed scalable backend systems and APIs with python and Django.",
+				"Collaborated with clients to gather requirements and ensure project goals were met.",
 			],
 		},
 	];

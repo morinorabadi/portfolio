@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactInformation = () => {
 	const contactDetails = {
-		email: "yourname@gmail.com",
-		github: "https://github.com/yourusername",
-		phone: "+1234567890",
+		email: "mori.norabadi@gmail.com",
+		github: "https://github.com/morinorabadi",
+		phone: "+989389493807",
 	};
 
 	return (
