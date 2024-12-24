@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import daisyui from "daisyui"
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,10 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#f8f6f4",
+        card : "#f0f0f0",
+        tBlack: "#404742",
+        tGreen: "#1fa84f",
       },
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 } satisfies Config;
