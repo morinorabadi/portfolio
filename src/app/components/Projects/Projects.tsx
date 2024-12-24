@@ -26,9 +26,10 @@ export default function Projects() {
 	];
 
 	return (
-		<div className="bg-black p-3">
-			{content.map((data) => (
-				<Project data={data} key={data.id} />
+		<div className="bg-background p-3">
+			<h2 className="text-2xl font-bold mb-6 text-center text-tGreen"> Projects </h2>
+			{content.map((data,index) => (
+				<Project data={data} key={data.id} reverse={index%2 === 0} />
 			))}
 		</div>
 	);
