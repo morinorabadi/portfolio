@@ -6,7 +6,7 @@ const Aboutme = () => {
 			<div className="hero-content flex-col lg:flex-row">
 				<Image
 					src="/images/real_mori.webp"
-					className="max-w-3xl rounded-lg shadow-2xl"
+					className="rounded-lg shadow-2xl"
 					width={771}
 					height={1080}
 					alt="mori"
