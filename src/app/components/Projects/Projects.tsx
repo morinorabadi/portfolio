@@ -90,12 +90,12 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-background p-3">
+    <div className="bg-background p-8">
       <h2 className="text-3xl font-bold mb-6 text-center text-tGreen">
         Projects
       </h2>
-      {content.map((project, index) => (
-        <Project project={project} key={project.id} reverse={index % 2 === 0} />
+      {content.map((project) => (
+        <Project project={project} key={project.id} />
       ))}
     </div>
   );

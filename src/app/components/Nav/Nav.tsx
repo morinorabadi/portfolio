@@ -8,7 +8,7 @@ export default function Nav() {
   ];
 
   return (
-    <div className="fixed top-0 left-0 w-screen z-20 bg-gradient-to-b from-[#000010dd] to-[#00000010]">
+    <div className="fixed top-0 left-0 w-screen z-20 bg-gradient-to-b from-[#000000dd] to-[#00000000]">
       <div className=" text-lg md:text-2xl p-2 md:p-6 justify-between flex w-screen max-w-2xl font-bold  px-6 m-auto">
         {links.map((link) => (
           <a

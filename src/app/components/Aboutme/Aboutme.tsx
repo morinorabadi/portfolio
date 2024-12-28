@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Aboutme = () => {
   return (
-    <div className="hero min-h-screen bg-[#111]">
+    <div className="hero min-h-screen bg-bgwhite">
       <div className="hero-content gap-16">
         <div
           className="md:hidden h-full w-full absolute bg-gradient-to-t z-[5]
@@ -11,7 +11,7 @@ const Aboutme = () => {
 
         <Image
           src="/images/real_mori.webp"
-          className="h-full w-full object-cover absolute top-0 left-0  max-h-screen md:static"
+          className="md:mask mask-squircle h-full md:w-[60%] w-full object-cover absolute top-0 left-0  max-h-screen md:static"
           width={771}
           height={1080}
           alt="mori"
