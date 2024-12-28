@@ -39,18 +39,6 @@ export default function Projects() {
       videoUrl: "/videos/boxing.mp4",
     },
     {
-      id: "003",
-      title: "new metaverse",
-      overview: "",
-      features: [
-        "real time physics simulation with help of Havok",
-        "customizable Interactive 3D with many environment",
-        "with real time multiplayer support",
-      ],
-      techStack: ["babylon.js", "Node.js", "Havok physics"],
-      videoUrl: "/videos/newmetaverse.mp4",
-    },
-    {
       id: "004",
       title: "old metaverse",
       overview: "old metaverse",
@@ -76,7 +64,7 @@ export default function Projects() {
     },
     {
       id: "006",
-      title: "SinDesigner",
+      title: "Shooter",
       overview:
         "A multiplayer browser-based game featuring immersive 3D graphics and real-time interactions.",
       features: [
@@ -86,6 +74,18 @@ export default function Projects() {
       ],
       techStack: ["Three.js", "Node.js", "WebSockets", "MongoDB"],
       videoUrl: "/videos/shotter.mp4",
+    },
+    {
+      id: "003",
+      title: "new metaverse",
+      overview: "",
+      features: [
+        "real time physics simulation with help of Havok",
+        "customizable Interactive 3D with many environment",
+        "with real time multiplayer support",
+      ],
+      techStack: ["babylon.js", "Node.js", "Havok physics"],
+      videoUrl: "/videos/newmetaverse.mp4",
     },
   ];
 

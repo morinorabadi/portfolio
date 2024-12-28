@@ -5,8 +5,8 @@ export default function Project({ project }: { project: IProjectData }) {
     <div
       className="
 			bg-card my-10
-			 flex md:grid-cols-2 gap-6 rounded-3xl text-tBlack
-			 max-w-5xl mx-auto overflow-hidden shadow-lg p-4
+			 flex md:flex-row flex-col md:grid-cols-2 gap-6 rounded-3xl text-tBlack
+			 max-w-6xl mx-auto overflow-hidden shadow-lg p-4
 			"
       key={project.id}
     >
@@ -26,21 +26,21 @@ export default function Project({ project }: { project: IProjectData }) {
       </div>
 
       {/* Info Section */}
-      <div className="content-center md:text-right text-center md:basis-[35%]">
-        <p className="text-2xl font-bold mb-6 text-center text-tGreen">
+      <div className="content-center md:text-left text-center md:basis-[35%]">
+        <p className="text-2xl font-bold mb-6 text-tGreen">
           {project.title}
         </p>
-        <p className="text-tBlack -700 mb-4 text-left">{project.overview}</p>
+        <p className="text-tBlack -700 mb-4">{project.overview}</p>
 
-        <ul className="list-disc list-inside text-tBlack -700 mb-4 text-left text-sm">
+        <ul className="list-disc list-inside text-tBlack mb-2 text-sm">
           {project.features.map((feature, index) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <li key={index}>{feature}</li>
           ))}
         </ul>
 
-        <p className="text-tBlack -700 mb-4">{project.techStack.join(", ")}</p>
-      </div>
+        <p className="text-tBlack  mb-2">created with : {project.techStack.join(", ")} ...</p>
+      </div>01
     </div>
   );
 }
