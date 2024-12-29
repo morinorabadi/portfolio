@@ -90,7 +90,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-background p-8">
+    <div className="bg-bgwhite p-8">
       <h2 className="text-3xl font-bold mb-6 text-center text-tGreen">
         Projects
       </h2>
