@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactInformation = () => {
+export default function Contact() {
 	const contactDetails = [
 		{
 			title: "Email",
@@ -41,6 +41,4 @@ const ContactInformation = () => {
 			</section>
 		</div>
 	);
-};
-
-export default ContactInformation;
+}

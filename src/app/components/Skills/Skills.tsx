@@ -45,7 +45,7 @@ const Svg = ({ name }: { name: string }) => {
 	);
 };
 
-const Skills = () => {
+export default function Skills() {
 	const skills = [
 		{
 			title: "Languages",
@@ -90,6 +90,4 @@ const Skills = () => {
 			))}
 		</div>
 	);
-};
-
-export default Skills;
+}

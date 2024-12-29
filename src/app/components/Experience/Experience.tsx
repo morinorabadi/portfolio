@@ -1,4 +1,4 @@
-const WorkExperience = () => {
+export default function Experience() {
 	const experiences = [
 		{
 			title: "Web App Developer",
@@ -60,8 +60,4 @@ const WorkExperience = () => {
 			</div>
 		</div>
 	);
-};
-
-export default WorkExperience;
-
-import React from "react";
+}
