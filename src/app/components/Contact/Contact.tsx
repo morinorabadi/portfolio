@@ -16,7 +16,7 @@ export default function Contact() {
 	];
 
 	return (
-		<div className="flex items-center justify-center bg-background">
+		<div id="contact" className="flex items-center justify-center bg-background">
 			<section className="p-6 rounded-lg max-w-md mx-auto">
 				<h2 className="text-2xl font-semibold text-green-700 mb-4">
 					Contact Information

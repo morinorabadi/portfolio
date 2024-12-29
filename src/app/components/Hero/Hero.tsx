@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Hero() {
 	return (
-		<div className="hero min-h-screen md:bg-gradient-to-tl from-green-900 to-bg-bgwhite">
+		<div
+			id="hero"
+			className="hero min-h-screen md:bg-gradient-to-tl from-green-900 to-bg-bgwhite"
+		>
 			<div className="hero-content gap-16">
 				<div
 					className="md:hidden h-full w-full absolute bg-gradient-to-t z-[5]

@@ -70,12 +70,12 @@ export default function Skills() {
 	];
 
 	return (
-		<div className="bg-background p-8">
+		<div id="skills" className="bg-background py-12 p-8">
 			<h2 className="text-3xl font-bold mb-6 text-center text-tGreen">
 				Skills
 			</h2>
 			{skills.map((skill, index) => (
-				<div className="p-2" key={skill.title}>
+				<div className="p-2 text-tBlack" key={skill.title}>
 					{index !== 0 && (
 						<div className="bg-gray-400 max-w-lg h-[2px] w-[75%] mt-6 m-auto" />
 					)}

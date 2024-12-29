@@ -32,7 +32,10 @@ export default function Experience() {
 		},
 	];
 	return (
-		<div className="min-h-screen bg-bgwhite flex items-center justify-center ">
+		<div
+			id="experience"
+			className="py-12 bg-bgwhite flex items-center justify-center "
+		>
 			<div className="p-8">
 				<h2 className="text-2xl font-bold mb-6 text-center text-tGreen">
 					Work Experience

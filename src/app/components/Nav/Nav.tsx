@@ -5,15 +5,15 @@ export default function Nav() {
 	const links = [
 		{ id: "1", href: "projects", text: "projects" },
 		{ id: "2", href: "skills", text: "skills" },
-		{ id: "3", href: "workExperience", text: "experience" },
-		{ id: "4", href: "contactInformation", text: "contact" },
+		{ id: "3", href: "experience", text: "experience" },
+		{ id: "4", href: "contact", text: "contact" },
 	];
 
 	return (
 		<>
 			<div className="fixed top-0 h-20 left-0 w-screen z-20 bg-gradient-to-b from-[#000000dd] to-[#00000000]">
 				<div className=" text-tGreen p-6 text-3xl">
-					<a href="#about">mori</a>
+					<a href="#hero">mori</a>
 				</div>
 			</div>
 			<Menu right>
