@@ -1,33 +1,91 @@
+/* eslint-disable @next/next/no-img-element */
+
+const svgs = [
+	{ name: "typescript", file: "typescript-original" },
+	{ name: "javascript", file: "javascript-original" },
+	{ name: "html5", file: "html5-original-wordmark" },
+	{ name: "css3", file: "css3-original-wordmark" },
+	{ name: "go", file: "go-original-wordmark" },
+
+	{ name: "threejs", file: "threejs-original-wordmark" },
+	{ name: "godot", file: "godot-original-wordmark" },
+	{ name: "opengl", file: "opengl-original" },
+
+	{ name: "react", file: "react-original-wordmark" },
+	{ name: "nextjs", file: "nextjs-original-wordmark" },
+	{ name: "tailwindcss", file: "tailwindcss-original" },
+
+	{ name: "nodejs", file: "nodejs-original-wordmark" },
+	{ name: "express", file: "express-original" },
+	{ name: "mongodb", file: "mongodb-original-wordmark" },
+	{ name: "socketio", file: "socketio-original" },
+
+	{ name: "blender", file: "blender-original" },
+	{ name: "docker", file: "docker-original-wordmark" },
+	{ name: "git", file: "git-original" },
+	{ name: "linux", file: "linux-original" },
+	{ name: "ubuntu", file: "ubuntu-original" },
+];
+
+const baseSvgUrl = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";
+
+const Svg = ({ name }: { name: string }) => {
+	if (name === "babylonjs")
+		return (
+			<img className="w-20" src={"/svgs/babylonjs.svg"} alt={"babylonjs"} />
+		);
+	const data = svgs.find((a) => a.name === name);
+	if (data === undefined) return null;
+	return (
+		<img
+			className="w-20"
+			src={`${baseSvgUrl}${name}/${data.file}.svg`}
+			alt={data.name}
+		/>
+	);
+};
+
 const Skills = () => {
 	const skills = [
 		{
 			title: "Languages",
-			description: "TypeScript, JavaScript, HTML5, CSS3, Golang",
+			description: "typescript javascript html5 css3 go",
 		},
 		{
 			title: "Game Development",
-			description: "Three.js , Babylon.js, Godot Engine",
+			description: "opengl threejs babylonjs godot",
 		},
 		{
 			title: "Frontend",
-			description: "React.js, Next.js, Tailwind CSS, Three.js, Babylon.js",
+			description: "react nextjs tailwindcss threejs babylonjs",
 		},
 		{
 			title: "Backend",
-			description: "Node.js, Express.js, MongoDB, go-fiber",
+			description: "nodejs express mongodb socketio",
 		},
 		{
 			title: "Others",
-			description: "Git Blender Docker",
+			description: "git blender docker linux ubuntu",
 		},
 	];
 
 	return (
-		<div className="bg-black p-3 text-white">
-			{skills.map((skill) => (
-				<div key={skill.title}>
-					<p className="font-bold mt-4">{skill.title}</p>
-					<p>{skill.description}</p>
+		<div className="bg-background p-8">
+			<h2 className="text-3xl font-bold mb-6 text-center text-tGreen">
+				Skills
+			</h2>
+			{skills.map((skill, index) => (
+				<div className="p-2" key={skill.title}>
+					{index !== 0 && (
+						<div className="bg-gray-400 max-w-lg h-[2px] w-[75%] mt-6 m-auto" />
+					)}
+					<p className="font-bold text-center text-xl m-10">{skill.title}</p>
+					<div className="flex max-w-2xl m-auto gap-3 justify-evenly flex-wrap">
+						{skill.description.split(" ").map((tag, index) => (
+							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+							<Svg name={tag} key={index} />
+						))}
+					</div>
 				</div>
 			))}
 		</div>
