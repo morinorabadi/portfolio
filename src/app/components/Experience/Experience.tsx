@@ -60,7 +60,7 @@ export default function Experience() {
           </p>
         </div>
         <div className="mx-auto max-w-4xl space-y-6">
-          {experiences.map((experience, index) => (
+          {experiences.map((experience) => (
             <Card
               key={experience.title}
               className="border-slate-800 bg-slate-950/50 backdrop-blur transition-all hover:border-tGreen/50 hover:shadow-lg hover:shadow-tGreen/10"

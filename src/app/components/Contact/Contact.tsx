@@ -34,7 +34,7 @@ export default function Contact() {
 							Get in <span className="text-tGreen">Touch</span>
 						</h2>
 						<p className="mt-4 text-lg text-slate-400">
-							Let's discuss your next project or just say hello
+							Let&apos;s discuss your next project or just say hello
 						</p>
 					</div>
 
