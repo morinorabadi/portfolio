@@ -14,7 +14,7 @@ export default function Projects() {
       id: "000",
       title: "dreamaan",
       overview:
-        "a great app for intracte and craete more with doing less with power of workflows",
+        "a great app craete more with doing less with power of workflows, AI and automations.",
       techStack: ["react", "nextjs", "Node.js", "WebSockets", "MongoDB"],
       videoUrl: "/videos/dreamaan.mp4",
     },
@@ -22,7 +22,7 @@ export default function Projects() {
       id: "001",
       title: "SinDesigner",
       overview:
-        "A multiplayer browser-based game featuring immersive 3D graphics and real-time interactions.",
+        "3d web application that allows users to design and customize their own 3D building in real-time.",
       techStack: ["Three.js", "Node.js", "WebSockets", "MongoDB"],
       videoUrl: "/videos/sindesiner.mp4",
     },

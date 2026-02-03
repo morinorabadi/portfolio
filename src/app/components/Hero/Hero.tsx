@@ -30,8 +30,8 @@ export default function Hero() {
 
               <p className="max-w-[600px] text-base leading-relaxed text-slate-400 md:text-lg">
                 I&apos;m a Web Developer with a strong focus on crafting
-                interactive and engaging 3D experiences. I specialize in
-                building full-stack applications and game development.
+                interactive and engaging experiences. I specialize in
+                building full-stack applications and web game development.
               </p>
             </div>
           </div>
