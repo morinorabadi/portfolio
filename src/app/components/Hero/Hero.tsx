@@ -33,22 +33,6 @@ export default function Hero() {
                 interactive and engaging 3D experiences. I specialize in
                 building full-stack applications and game development.
               </p>
-
-              <div className="flex flex-wrap gap-4 pt-4">
-                <Button
-                  size="lg"
-                  className="bg-tGreen hover:bg-emerald-600 text-white shadow-lg shadow-tGreen/50"
-                >
-                  View Projects
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-slate-700 hover:bg-slate-800"
-                >
-                  Get in Touch
-                </Button>
-              </div>
             </div>
           </div>
 
@@ -68,7 +52,7 @@ export default function Hero() {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className={cn(
                     "object-cover object-[center_20%]",
-                    "transition-transform duration-500 hover:scale-105"
+                    "transition-transform duration-500 hover:scale-105",
                   )}
                 />
 
